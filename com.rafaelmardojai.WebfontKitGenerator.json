@@ -83,8 +83,8 @@
                 {
                     "type":"git",
                     "url":"https://github.com/rafaelmardojai/WebfontKitGenerator.git",
-                    "tag":"v0.2.0",
-                    "commit":"81c5877fba3f62ccd52fb45b0b02c349f8ef9b5c"
+                    "tag":"v0.3.0",
+                    "commit":"21a7005b051b56155e145020a5c19ae3d5c6ad27"
                 }
             ]
         }
