@@ -1,7 +1,7 @@
 {
     "app-id" : "com.rafaelmardojai.WebfontKitGenerator",
     "runtime" : "org.gnome.Platform",
-    "runtime-version" : "43",
+    "runtime-version" : "44",
     "sdk" : "org.gnome.Sdk",
     "command" : "webfontkitgenerator",
     "finish-args" : [
@@ -49,8 +49,8 @@
                 {
                     "type":"git",
                     "url":"https://github.com/rafaelmardojai/webfont-kit-generator",
-                    "tag":"1.0.2",
-                    "commit":"f8dbedad5ffc9c50d3acc360ec821fb0e68b25f6"
+                    "tag":"1.0.3",
+                    "commit":"16aaf1692a6731ead2a9f84ea79fd10afc6733a6"
                 }
             ]
         }
