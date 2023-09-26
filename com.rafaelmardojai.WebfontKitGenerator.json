@@ -1,7 +1,7 @@
 {
     "app-id" : "com.rafaelmardojai.WebfontKitGenerator",
     "runtime" : "org.gnome.Platform",
-    "runtime-version" : "44",
+    "runtime-version" : "45",
     "sdk" : "org.gnome.Sdk",
     "command" : "webfontkitgenerator",
     "finish-args" : [
@@ -9,10 +9,21 @@
         "--share=ipc",
         "--device=dri",
         "--socket=fallback-x11",
-        "--socket=wayland",
-        "--filesystem=home"
+        "--socket=wayland"
     ],
     "modules" : [
+        {
+            "name": "blueprint",
+            "buildsystem": "meson",
+            "sources": [
+                {
+                    "type": "git",
+                    "url": "https://gitlab.gnome.org/jwestman/blueprint-compiler",
+                    "tag": "v0.8.1",
+                    "commit": "aa7679618e864748f4f4d8f15283906e712752fe"
+                }
+            ]
+        },
         {
             "name": "python3-FontTools",
             "buildsystem": "simple",
@@ -49,8 +60,8 @@
                 {
                     "type":"git",
                     "url":"https://github.com/rafaelmardojai/webfont-kit-generator",
-                    "tag":"1.0.3",
-                    "commit":"16aaf1692a6731ead2a9f84ea79fd10afc6733a6"
+                    "tag":"1.1.0",
+                    "commit":"980db325965d0e9964800aee178838bbbed727e9"
                 }
             ]
         }
